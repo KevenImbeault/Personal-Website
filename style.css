@@ -44,12 +44,13 @@ footer {
     font-size: 0.9rem;
 }
 
-footer span p {
+footer span > p {
     float: left;
     padding-left: 10%;
+    margin-bottom: 0;
 }
 
-footer span p + p {
+footer span > p + p {
     float: right;
     padding-right: 10%;
 }

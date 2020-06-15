@@ -30,6 +30,31 @@
     }
 }
 
+.styleguide {
+    background-color: #1d1d1d;
+    min-height: 100vh;
+}
+
+.styleguide p{
+    color: #858585;
+}
+
+.color-palette {
+    color: white;
+}
+
+.styleguide h1,
+.styleguide h2{
+    color: #e1e1e1;
+    margin-top: 20px;
+}
+
+.color-palette {
+    border: 1px white solid;
+    width: 150px;
+    height: 70px;
+}
+
 html,body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;

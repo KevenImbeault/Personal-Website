@@ -105,15 +105,21 @@ body::-webkit-scrollbar {
 }
 
 #home {
-    background: rgb(0,114,175);
-    background: linear-gradient(180deg, rgba(0,114,175,1) 0%, rgba(0,0,0,1) 85%);
+    background-color: #1d1d1d;
     text-align: center;
 }
 
 #home h1 {
     font-size: 10rem;
-    color: white;
     z-index: 100;
+    background-image: -webkit-linear-gradient(right, #007178, #02ADB8, #007178); /* For Chrome and Safari */
+    background-image:    -moz-linear-gradient(right, #007178, #02ADB8, #007178); /* For old Fx (3.6 to 15) */
+    background-image:     -ms-linear-gradient(right, #007178, #02ADB8, #007178); /* For pre-releases of IE 10*/
+    background-image:      -o-linear-gradient(right,#007178, #02ADB8, #007178); /* For old Opera (11.1 to 12.0) */
+    background-image:         linear-gradient(to right, #007178, #02ADB8, #007178); /* Standard syntax; must be last */
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 #top {

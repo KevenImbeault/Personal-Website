@@ -1,3 +1,6 @@
+/* * * * * * * * * * * * *
+ *   MOBILE/RESPONSIVE   *
+ * * * * * * * * * * * * */
 @media screen and (max-width: 680px) {
     #home h1 {
         font-size: 8em !important;
@@ -19,8 +22,12 @@
 body {
     min-height: 100vh;
     padding: 5%;
-    background-color: #1d1d1d;
+    background-color: #1d1d1d !important;
 }
+
+/* * * * * * * * * * * * *
+ * HOME PAGE NAVIGATION  *
+ * * * * * * * * * * * * */
 
 body nav#homeNav {
     display: grid;
@@ -33,6 +40,10 @@ body nav#homeNav a {
     color: #C2C2C2;
     font-weight: 600;
 }
+
+/* * * * * * * * * * * * *
+ *       HOME PAGE       *
+ * * * * * * * * * * * * */
 
 #home {
     text-align: center;

@@ -54,7 +54,7 @@ body #homeNav a {
  * * * * * * * * * * * * */
 
 
- /* HOME PAGE */
+/* HOME PAGE */
 #home {
     text-align: center;
 }
@@ -72,3 +72,4 @@ body #homeNav a {
 #home hr {
     border: 1px solid rgb(255, 255, 255);
 }
+

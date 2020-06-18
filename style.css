@@ -22,8 +22,16 @@ body {
     background-color: #1d1d1d;
 }
 
-.navbar {
-    background-color: #131313;
+body nav#homeNav {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+}
+
+body nav#homeNav a {
+    font-size : 36px;
+    color: #C2C2C2;
+    font-weight: 600;
 }
 
 #home {

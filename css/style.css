@@ -5,6 +5,10 @@
     #home h1 {
         font-size: 8em !important;
     }
+
+    body #homeNav a {
+        font-size : 26px !important;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -16,6 +20,10 @@
 @media screen and (max-width: 460px) {
     #home h1 {
         font-size: 4em !important;
+    }
+
+    body #homeNav a {
+        font-size : 20px !important;
     }
 }
 

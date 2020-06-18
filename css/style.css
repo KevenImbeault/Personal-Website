@@ -83,6 +83,16 @@ body #homeNav a {
 
 /* * * * ABOUT PAGE * * * */
 
+#findMe {
+    border-left : 1px solid white;
+}
+
+.findMeContent,
+body #about #aboutContent div p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 body #about {
     color: #858585;
 }
@@ -93,8 +103,23 @@ body #about #aboutContent {
     grid-template-columns: repeat(2, 50%);
 }
 
+body #about #aboutContent div:first-child p {
+    padding : 0 20%;
+    text-align: justify;
+}
+
+body #about #aboutContent div:first-child p:first-child {
+    padding-top: 10%;
+}
+
 body #about #aboutContent #findMe .findMeContent a{
     color : #C2C2C2; 
+}
+
+body #about #aboutContent #findMe h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #E1E1E1;
 }
 
 body #about #aboutContent #findMe h2 + .findMeContent{

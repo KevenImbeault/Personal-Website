@@ -62,7 +62,7 @@ body #homeNav a {
  * * * * * * * * * * * * */
 
 
-/* HOME PAGE */
+/* * * * HOME PAGE * * * */
 #home {
     text-align: center;
 }
@@ -81,3 +81,26 @@ body #homeNav a {
     border: 1px solid rgb(255, 255, 255);
 }
 
+/* * * * ABOUT PAGE * * * */
+
+body #about {
+    color: #858585;
+}
+
+body #about #aboutContent {
+    padding-top: 5%;
+    display : grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+body #about #aboutContent #findMe .findMeContent a{
+    color : #C2C2C2; 
+}
+
+body #about #aboutContent #findMe h2 + .findMeContent{
+    padding-top : 5%;
+}
+
+body #about #aboutContent #findMe .findMeContent p:first-child{
+    margin-bottom: 0px;
+}

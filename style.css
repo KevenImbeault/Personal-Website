@@ -26,25 +26,35 @@ body {
 }
 
 /* * * * * * * * * * * * *
- * HOME PAGE NAVIGATION  *
+ *       NAVIGATION      *
  * * * * * * * * * * * * */
 
-body nav#homeNav {
+body #homeNav {
     display: grid;
     grid-template-columns: repeat(3, auto);
     text-align: center;
 }
 
-body nav#homeNav a {
-    font-size : 36px;
+body #homeNav a,
+body .navbar a {
     color: #C2C2C2;
     font-weight: 600;
 }
 
+body .navbar a {
+    font-size: 30px;
+}
+
+body #homeNav a {
+    font-size : 36px;
+}
+
 /* * * * * * * * * * * * *
- *       HOME PAGE       *
+ *          PAGES        *
  * * * * * * * * * * * * */
 
+
+ /* HOME PAGE */
 #home {
     text-align: center;
 }

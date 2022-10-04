@@ -129,3 +129,36 @@ body #about #aboutContent #findMe h2 + .findMeContent{
 body #about #aboutContent #findMe .findMeContent p:first-child{
     margin-bottom: 0px;
 }
+
+/* * * * SKILLS PAGE * * * */
+
+body #skills #skillsContent p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+body #skills {
+    color: #858585;
+}
+
+body #skills {
+    padding-top: 5%;
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+body #skills #skillsContent p {
+    text-align: center;
+}
+
+body #skills #skillsContent p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E1E1E1;
+    text-align: center;
+}
+
+body #skills #skillsContent p:first-child{
+    margin-bottom: 0px;
+    padding-top: 10%;
+}

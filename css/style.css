@@ -1,0 +1,164 @@
+/* * * * * * * * * * * * *
+ *   MOBILE/RESPONSIVE   *
+ * * * * * * * * * * * * */
+@media screen and (max-width: 680px) {
+    #home h1 {
+        font-size: 8em !important;
+    }
+
+    body #homeNav a {
+        font-size : 26px !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    #home h1 {
+        font-size: 6em !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #home h1 {
+        font-size: 4em !important;
+    }
+
+    body #homeNav a {
+        font-size : 20px !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    padding: 5%;
+    background-color: #1d1d1d !important;
+}
+
+/* * * * * * * * * * * * *
+ *       NAVIGATION      *
+ * * * * * * * * * * * * */
+
+body #homeNav {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+}
+
+body #homeNav a,
+body .navbar a {
+    color: #C2C2C2;
+    font-weight: 600;
+}
+
+body .navbar a {
+    font-size: 30px;
+}
+
+body #homeNav a {
+    font-size : 36px;
+}
+
+/* * * * * * * * * * * * *
+ *          PAGES        *
+ * * * * * * * * * * * * */
+
+
+/* * * * HOME PAGE * * * */
+#home {
+    text-align: center;
+}
+
+#home h1 {
+    margin-top: 10vh;
+    font-size: 10rem;
+    z-index: 100;
+    background-image: linear-gradient(to right, #007178, #02ADB8, #007178);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#home hr {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* * * * ABOUT PAGE * * * */
+
+#findMe {
+    border-left : 1px solid white;
+}
+
+.findMeContent,
+body #about #aboutContent div p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+body #about {
+    color: #858585;
+}
+
+body #about #aboutContent {
+    padding-top: 5%;
+    display : grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+body #about #aboutContent div:first-child p {
+    padding : 0 20%;
+    text-align: justify;
+}
+
+body #about #aboutContent div:first-child p:first-child {
+    padding-top: 10%;
+}
+
+body #about #aboutContent #findMe .findMeContent a{
+    color : #C2C2C2; 
+}
+
+body #about #aboutContent #findMe h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #E1E1E1;
+}
+
+body #about #aboutContent #findMe h2 + .findMeContent{
+    padding-top : 5%;
+}
+
+body #about #aboutContent #findMe .findMeContent p:first-child{
+    margin-bottom: 0px;
+}
+
+/* * * * SKILLS PAGE * * * */
+
+body #skills #skillsContent p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+body #skills {
+    color: #858585;
+}
+
+body #skills {
+    padding-top: 5%;
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+body #skills #skillsContent p {
+    text-align: center;
+}
+
+body #skills #skillsContent p:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    color: #E1E1E1;
+    text-align: center;
+}
+
+body #skills #skillsContent p:first-child{
+    margin-bottom: 0px;
+    padding-top: 10%;
+}

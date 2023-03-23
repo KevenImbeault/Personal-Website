@@ -57,6 +57,10 @@ body #homeNav a {
     font-size : 36px;
 }
 
+body .navbar li.active a {
+    color: white;
+}
+
 /* * * * * * * * * * * * *
  *          PAGES        *
  * * * * * * * * * * * * */
